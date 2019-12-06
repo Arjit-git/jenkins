@@ -2,7 +2,8 @@
 int main(){
     int x,y,choice;
     printf("enter two numbers ");
-    scanf("%d,%d",&x,&y);
+    scanf("%d",&x);
+    scanf("%d",&y);
     printf("Eneter your choice \n 1->Addition \n 2->Substraction \n 3->Division \n 4->Multiplication\n");
     scanf("%d",&choice);
 switch(choice){
